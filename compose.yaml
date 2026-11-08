@@ -1,0 +1,11 @@
+services:
+  python:
+    build: ./src/python
+    volumes:
+      - ./src/data:/data:ro
+      - ./predictions:/output
+  r:
+    build: ./src/r
+    volumes:
+      - ./src/data:/data:ro
+      - ./predictions:/output
