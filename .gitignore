@@ -1,0 +1,21 @@
+# Keep the download location in a fresh clone; passenger data stays local.
+/src/data/*
+!/src/data/.gitkeep
+/predictions/
+*.csv
+*.zip
+
+# Local development
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.env
+.ipynb_checkpoints/
